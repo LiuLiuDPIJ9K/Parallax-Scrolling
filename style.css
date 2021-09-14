@@ -1,0 +1,69 @@
+* {
+  border: 0;
+  padding: 0;
+  margin: 0;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 1em;
+  color: #333333;
+}
+
+h1 {
+  text-align: center;
+  font-weight: 300;
+  font-size: 2em;
+  border-bottom: 3px solid #12a4f1;
+  margin-bottom: 1em;
+}
+
+.wrapper {
+  position: relative;
+  box-shadow: 0 0 1em #333333;
+}
+.wrapper section {
+  position: relative;
+  background: #eeeeee;
+}
+.wrapper section article {
+  width: 50%;
+  margin: 0 auto;
+  padding: 2em 0;
+}
+.wrapper section article p {
+  margin-bottom: 1em;
+}
+.wrapper section article p:last-of-type {
+  margin-bottom: 0;
+}
+.wrapper section:after {
+  content: "";
+  display: block;
+  position: relative;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 30em;
+  width: 100%;
+}
+.wrapper section:nth-child(1):after {
+  background-image: url("https://limelightr.org/wp-content/uploads/2021/02/AgentsArmy_Animation_Cleaning.gif");
+}
+.wrapper section:nth-child(2):after {
+  background-image: url("https://i2.wp.com/limelightr.org/wp-content/uploads/2021/02/email-header.png");
+}
+.wrapper section:nth-child(3):after {
+  background-image: url("https://th.bing.com/th/id/R.7e122f10016d451cc06bc5cb6ebd95e1?rik=eJo%2fRyja%2bGkRTg&pid=ImgRaw&r=0");
+}
+.wrapper section:nth-child(4):after {
+  background-image: url("https://th.bing.com/th/id/R.9ab77ee7733c142bb7a846ec039ea2fb?rik=Ol7E6xenacvpVA&pid=ImgRaw&r=0");
+}
+.wrapper section:nth-child(5):after {
+  background-image: url("https://limelightr.org/wp-content/uploads/2021/02/AgentsArmy_Animation_Cleaning.gif");
+}
