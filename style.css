@@ -56,7 +56,7 @@ h1 {
   background-image: url("https://limelightr.org/wp-content/uploads/2021/02/AgentsArmy_Animation_Cleaning.gif");
 }
 .wrapper section:nth-child(2):after {
-  background-image: url("https://i2.wp.com/limelightr.org/wp-content/uploads/2021/02/email-header.png");
+  background-image: url("https://charityvillage.com/wp-content/uploads/2020/02/retain_gain_feature.png");
 }
 .wrapper section:nth-child(3):after {
   background-image: url("https://th.bing.com/th/id/R.7e122f10016d451cc06bc5cb6ebd95e1?rik=eJo%2fRyja%2bGkRTg&pid=ImgRaw&r=0");
@@ -66,4 +66,69 @@ h1 {
 }
 .wrapper section:nth-child(5):after {
   background-image: url("https://limelightr.org/wp-content/uploads/2021/02/AgentsArmy_Animation_Cleaning.gif");
+}
+
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,700);
+@import url(http://weloveiconfonts.com/api/?family=entypo);
+
+[class*=entypo-]:before {
+  font-family: "entypo", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #000000;
+  border-bottom: 1px solid #333333;
+  transition: all 0.4s ease;
+}
+a:hover {
+  color: #333333;
+  border-bottom: 1px solid #12a4f1;
+}
+
+nav {
+  font-size: .8em;
+  text-align: center;
+  left: -30%;
+  background-image: url(https://i2.wp.com/limelightr.org/wp-content/uploads/2021/02/email-header.png);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+nav a {
+  display: block;
+  width: 100%;
+  padding: 1em;
+  box-sizing: border-box;
+  background: rgba(51, 51, 51, 0.5);
+  border-bottom: 2px solid #12a4f1;
+  text-transform: uppercase;
+}
+nav a:hover {
+  border-bottom: 2px solid #12a4f1;
+  background: rgba(238, 238, 238, 0.5);
+}
+
+.toggle-nav {
+  font-size: 3em;
+  background: transparent;
+  color: #12a4f1;
+  line-height: 1em;
+  padding-left: 0.2em;
+  padding-right: 0.2em;
+  cursor: pointer;
+  position: fixed;
+  top: 0;
+  left: 0%;
+  z-index: 100;
+  background: #eeeeee;
+}
+
+@media only screen and (max-width: 600px) {
+  .wrapper section article {
+    width: 80%;
+  }
+  .wrapper section:after {
+    height: 15em;
+  }
 }
